@@ -95,8 +95,10 @@ class BehaviorTreePlan(ABC):
     def is_done(self):
         return self.done
 
+
 def are_all_trees_done(*trees: BehaviorTreePlan):
-    return all(t.is_done() for t in trees)    
+    return all(t.is_done() for t in trees)
+
 
 def merged_loop(*trees: BehaviorTreePlan, rest=0.1):
     while not are_all_trees_done(*trees):
