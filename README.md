@@ -1,5 +1,5 @@
 # task_planning_tools
-This repository provides various tools for implementing task planning architectures. Some examples of implementation are provided in the repository: [pybullet-planning](https://github.com/caelan/pybullet-planning)
+This repository provides various tools for implementing task planning architectures. Some examples of implementation are provided in the repository: [pybullet-planning](https://github.com/sheriffMelamine/pybullet-planning)
 
 ---
 ## Behavior Trees
